@@ -1,3 +1,11 @@
+
+//
+//  ImmersiveView.swift
+//  TestingTreeYo
+//
+//  Created by Matthew Rispler on 9/4/2024.
+//
+
 import SwiftUI
 import RealityKit
 import RealityKitContent
@@ -60,6 +68,13 @@ struct ImmersiveView: View {
             let scaleVector = SIMD3<Float>(repeating: Float(scale))
             tree.move(to: Transform(scale: scaleVector), relativeTo: tree.parent, duration: 2, timingFunction: .easeInOut)
             print("Animating tree scale to \(scale)")
+
+    var body: some View {
+        RealityView { content in
+            // Add the initial RealityKit content
+            if let scene = try? await Entity(named: "Immersive", in: realityKitContentBundle) {
+                content.add(scene)
+            }
         }
     }
 }

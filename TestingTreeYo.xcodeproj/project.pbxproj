@@ -3,30 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
+ HEAD
 	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		341DED5A2BC61BA5001EB260 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 341DED592BC61BA5001EB260 /* RealityKitContent */; };
+
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+ main
 		347AF0C72BC56272004BFF42 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 347AF0C62BC56272004BFF42 /* RealityKitContent */; };
 		347AF0C92BC56272004BFF42 /* TestingTreeYoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347AF0C82BC56272004BFF42 /* TestingTreeYoApp.swift */; };
 		347AF0CB2BC56272004BFF42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347AF0CA2BC56272004BFF42 /* ContentView.swift */; };
 		347AF0CD2BC56272004BFF42 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347AF0CC2BC56272004BFF42 /* ImmersiveView.swift */; };
 		347AF0CF2BC56275004BFF42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 347AF0CE2BC56275004BFF42 /* Assets.xcassets */; };
 		347AF0D22BC56275004BFF42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 347AF0D12BC56275004BFF42 /* Preview Assets.xcassets */; };
+ HEAD
 		347AF0DA2BC56670004BFF42 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347AF0D92BC56670004BFF42 /* ViewModel.swift */; };
 		347AF0DD2BC57019004BFF42 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 347AF0DC2BC57019004BFF42 /* RealityKitContent */; };
+
+ main
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		347AF0C12BC56272004BFF42 /* TestingTreeYo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingTreeYo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+ HEAD
+
+		347AF0C52BC56272004BFF42 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+ main
 		347AF0C82BC56272004BFF42 /* TestingTreeYoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingTreeYoApp.swift; sourceTree = "<group>"; };
 		347AF0CA2BC56272004BFF42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		347AF0CC2BC56272004BFF42 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 		347AF0CE2BC56275004BFF42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		347AF0D12BC56275004BFF42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		347AF0D32BC56275004BFF42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+ HEAD
 		347AF0D92BC56670004BFF42 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+
+ main
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,8 +51,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+ HEAD
 				347AF0DD2BC57019004BFF42 /* RealityKitContent in Frameworks */,
 				341DED5A2BC61BA5001EB260 /* RealityKitContent in Frameworks */,
+
+ main
 				347AF0C72BC56272004BFF42 /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,6 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				347AF0C32BC56272004BFF42 /* TestingTreeYo */,
+ HEAD
+
+				347AF0C42BC56272004BFF42 /* Packages */,
+ main
 				347AF0C22BC56272004BFF42 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,7 +86,10 @@
 		347AF0C32BC56272004BFF42 /* TestingTreeYo */ = {
 			isa = PBXGroup;
 			children = (
+ HEAD
 				347AF0D92BC56670004BFF42 /* ViewModel.swift */,
+
+ main
 				347AF0C82BC56272004BFF42 /* TestingTreeYoApp.swift */,
 				347AF0CA2BC56272004BFF42 /* ContentView.swift */,
 				347AF0CC2BC56272004BFF42 /* ImmersiveView.swift */,
@@ -73,6 +100,17 @@
 			path = TestingTreeYo;
 			sourceTree = "<group>";
 		};
+ HEAD
+
+		347AF0C42BC56272004BFF42 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				347AF0C52BC56272004BFF42 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+ main
 		347AF0D02BC56275004BFF42 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +137,11 @@
 			name = TestingTreeYo;
 			packageProductDependencies = (
 				347AF0C62BC56272004BFF42 /* RealityKitContent */,
+ HEAD
 				347AF0DC2BC57019004BFF42 /* RealityKitContent */,
 				341DED592BC61BA5001EB260 /* RealityKitContent */,
+
+ main
 			);
 			productName = TestingTreeYo;
 			productReference = 347AF0C12BC56272004BFF42 /* TestingTreeYo.app */;
@@ -130,9 +171,12 @@
 				Base,
 			);
 			mainGroup = 347AF0B82BC56272004BFF42;
+ HEAD
 			packageReferences = (
 				347AF0DB2BC57019004BFF42 /* XCLocalSwiftPackageReference "../../../Downloads/GenerativeDoodleArt_VisionOS-main/Packages/RealityKitContent" */,
 			);
+=======
+ main
 			productRefGroup = 347AF0C22BC56272004BFF42 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -161,7 +205,10 @@
 			files = (
 				347AF0CB2BC56272004BFF42 /* ContentView.swift in Sources */,
 				347AF0C92BC56272004BFF42 /* TestingTreeYoApp.swift in Sources */,
+ HEAD
 				347AF0DA2BC56670004BFF42 /* ViewModel.swift in Sources */,
+=======
+ main
 				347AF0CD2BC56272004BFF42 /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +410,7 @@
 		};
 /* End XCConfigurationList section */
 
+ HEAD
 /* Begin XCLocalSwiftPackageReference section */
 		347AF0DB2BC57019004BFF42 /* XCLocalSwiftPackageReference "../../../Downloads/GenerativeDoodleArt_VisionOS-main/Packages/RealityKitContent" */ = {
 			isa = XCLocalSwiftPackageReference;
@@ -375,14 +423,20 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
 		};
+
+/* Begin XCSwiftPackageProductDependency section */
+ main
 		347AF0C62BC56272004BFF42 /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
 		};
+ HEAD
 		347AF0DC2BC57019004BFF42 /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
 		};
+
+ main
 /* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 347AF0B92BC56272004BFF42 /* Project object */;
